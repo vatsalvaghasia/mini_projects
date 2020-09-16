@@ -102,6 +102,7 @@ div>p{
 		line-height:30pt;
 	}
 	.navbar-brand{
+		margin-left: 10px;
 		font-size:22px;
 	}
 	div>h1{
@@ -110,8 +111,16 @@ div>p{
 	div>span{
 	font-size:14px !important;
 	}
-	.abt-img{
-		width:50vw;
+	.set-cont>.abt-img{
+		width:100%;
+		height:15%;
+	}
+	.set-cont>div{
+		padding:10px;
+	}
+	.set-cont{
+		flex-direction: column !important;
+		align-items: center;
 	}
 
 
@@ -141,11 +150,10 @@ div.container{
 }
 .abt-img{
 	padding:10px;
-	max-width:400px;
-	max-height: 265px;
+	width:40%;
 }
 div>span{
-	font-size:22px;
+	font-size:24px;
 	color:#fff;
 	font-family: 'Roboto Condensed', sans-serif;
 }
