@@ -34,7 +34,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height:100vh;
+	height:100%;
 	font-family: helvetica;
 }
 .jumbotron{
@@ -110,9 +110,10 @@ div>p{
 	div>span{
 	font-size:14px !important;
 	}
-	.set-cont{
-		flex-direction: column !important;
+	.abt-img{
+		width:50vw;
 	}
+
 
 }
 
@@ -132,24 +133,21 @@ div>p{
 div.container{
 	background-color: transparent;
 	width:auto;
-	height:auto;
+	height:100%;
 	display:flex;
 	flex-direction: row;
 	margin-top: 200px;
 	border-radius: 10px;
 }
-.abt-box{
-
-}
 .abt-img{
 	padding:10px;
-	width:400px;
+	max-width:400px;
 	max-height: 265px;
 }
 div>span{
 	font-size:22px;
 	color:#fff;
-	font-family: 'Helvetica',cursive;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 div>h1{
 
