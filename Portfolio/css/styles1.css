@@ -5,6 +5,8 @@
 
 .navbar-brand{
 	color:#fff;
+	font-family: 'Righteous',cursive;
+	font-size: 30px;
 }
 .nav-item{
 	height:43px;
@@ -33,7 +35,7 @@ body{
 	background-size: cover;
 	width: 100%;
 	height:100vh;
-	font-family: 'Grandstander', cursive;
+	font-family: helvetica;
 }
 .jumbotron{
 	background: transparent;
@@ -44,17 +46,6 @@ div>p{
 	padding-top: 60px;
 	font-size:50px;
 	vertical-align: middle;
-}
-div>span{
-	color: #e31b6d;
-}
-.flex {
-	display: block;
-	padding-top: 150px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 .text{
 	font-size: 32pt;
@@ -93,12 +84,34 @@ div>span{
 		font-size:28pt;
 		line-height:33pt;
 	}
+	.navbar-brand{
+		font-size:26px;
+	}
+	div>h1{
+		font-size: 35px;
+	}
+	div>span{
+	font-size:18px !important;
+}
+
 
 }
 @media(max-width: 767px){
 	.text{
 		font-size:24pt;
 		line-height:30pt;
+	}
+	.navbar-brand{
+		font-size:22px;
+	}
+	div>h1{
+		font-size: 30px;
+	}
+	div>span{
+	font-size:14px !important;
+	}
+	.set-cont{
+		flex-direction: column !important;
 	}
 
 }
@@ -121,7 +134,6 @@ div.container{
 	width:auto;
 	height:auto;
 	display:flex;
-
 	flex-direction: row;
 	margin-top: 200px;
 	border-radius: 10px;
@@ -132,6 +144,7 @@ div.container{
 .abt-img{
 	padding:10px;
 	width:400px;
+	max-height: 265px;
 }
 div>span{
 	font-size:22px;
@@ -142,5 +155,5 @@ div>h1{
 
 	color:#fff;
 	font-family: 'Righteous', cursive; 
-		color:#e31b6d;
+	color:#e31b6d;
 }
