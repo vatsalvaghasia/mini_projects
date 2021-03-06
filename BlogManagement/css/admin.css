@@ -1,0 +1,133 @@
+html,body{
+	background-image: url(../blogimg.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	height:100%;
+  	width:100%;
+  	margin:0px;
+  	padding: 0px;
+	font-family:'Montserrat',sans-serif;
+}
+
+
+#navbar{
+	width:100%;
+}
+#navbar-parts{
+	text-align: right;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: flex-end;
+	background-color: transparent;
+}
+#navbar-parts > a{
+	padding: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	width:12%;
+	height:50px;
+	color: white;
+	font-weight: 600;		
+	text-decoration: none;
+}
+
+#home:hover{
+	border-bottom: 3px solid #fff;
+}
+#contact:hover{
+	border-bottom: 3px solid #fff;
+}
+
+
+#log-box{
+	display:table-cell; 
+	vertical-align:middle;
+}
+
+#login-form,#contact-form{
+	margin:auto;
+	width:400px;
+	padding:40px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);;
+	background-color: rgb(42, 115, 204,0.1);
+   	text-align: center;
+
+}
+#container{
+	display:table; 
+	height:100%; 
+	margin: 0 auto;
+}
+input,textarea{
+	font-family:'Montserrat',sans-serif;
+	box-sizing: border-box;
+	padding:14px 16px 14px 16px;
+	width:300px;
+	font-size:16px;
+	border-radius: 5px;
+	background-color: #fff;
+	border: 1px solid #dddfe2;
+	margin-bottom: 20px;
+}
+#btn,#btn1{
+	background-color: rgb(42, 115, 204);	
+	color:#fff;
+}
+#btn:hover,#btn1:hover{
+	background-color: rgb(42, 115, 204,0.5);
+}
+h2{
+	color: white;
+}
+
+footer{
+	width:100%;
+	color:white;
+	text-align: center;
+	background-color: rgb(42, 115, 204,0.5);
+}
+
+#social-box{
+	padding:40px;
+	text-align: right;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	background-color: transparent;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-whatsapp{
+	background: #25D366;
+	color:white;
+}
+
+footer > p{
+	padding: 10px;
+}
+
+

@@ -1,0 +1,146 @@
+body{
+	font-family: 'Montserrat', sans-serif !important;
+  background-color: rgb(42, 115, 204,0.1);
+  margin: 0;
+}
+a, a:visited, a:active{
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+.contents{
+  box-sizing: border-box;
+  width:1100px;
+  margin: 20px auto;
+}
+
+.blue-btn{ 
+  border:2px solid rgb(103, 128, 159);
+  background-color: rgb(103, 128, 159,0.2);
+  color:rgb(103, 128, 159);
+  transition:0.5s;
+}
+.blue-btn:hover{
+    background-color: rgb(103, 128, 159);
+    color:white;
+}
+.red-btn{
+    border:2px solid rgb(243, 86, 93);
+    background-color: rgb(243, 86, 93,0.2);
+    color:rgb(243, 86, 93);
+    transition:0.5s;
+}
+.red-btn:hover{
+    background-color: rgb(243, 86, 93);
+    color:white;
+}
+.yellow-btn{
+    border:2px solid rgb(223, 186, 73);
+    background-color:rgb(223, 186, 73,0.2);
+    color: rgb(223, 186, 73);
+    transition:0.5s;
+}
+.yellow-btn:hover{
+    background-color: rgb(223, 186, 73);
+    color:white;
+}
+.btn{
+  padding : 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.btn-right{
+  float:right;
+}
+.main-card{
+  width:100%;
+  height:550px;
+  position: relative;
+}
+.login-card{
+  width:329px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  background-color: red;
+  text-align: center;
+  margin: 6rem auto 8.1rem auto;
+  float:none;
+  height:300px;
+}
+h2{
+  padding-top: 40px; 
+  color:white;
+}
+
+#link-btn{ 
+  color: white;
+  text-decoration: none;
+  padding:10px !important;
+  background-color: red !important;
+  border-radius: 5px !important;
+}
+#link-box{
+  width: 1100px;
+  text-align: right;
+}
+
+#box1{
+  width:1100px;
+}
+#keepleft{
+  float:left;
+}
+input{
+  font-family: 'Montserrat', sans-serif;
+}
+input[type = 'text']{
+  font-family:'Montserrat',sans-serif;
+  box-sizing: border-box;
+  padding:14px 16px 14px 16px;
+  width:300px;
+  font-size:16px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #dddfe2;
+  margin-bottom: 20px;
+}
+textarea{
+  font-family:'Montserrat',sans-serif;
+  box-sizing: border-box;
+  padding:14px 16px 14px 16px;
+  width:1000px;
+  height: 200px;
+  font-size:16px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #dddfe2;
+  margin-bottom: 20px;
+}
+label{
+  font-weight: 600;
+  color:rgb(103, 128, 159);
+}
+.navbar{
+  box-sizing: border-box;
+  padding:20px;
+  width:100%;
+  margin: 0 auto;
+  background-color: rgb(103, 128, 159);
+}
+.navbar > #del-all-btn{
+  float: right;
+}
+#blg-title{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.imgpost{
+  text-align: center;
+  width:500px;
+  height:300px;
+}
+
+
+
+
